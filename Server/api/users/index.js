@@ -4,6 +4,7 @@ const hashPassword = require('../../utils/hashPassword');
 
 module.exports = (db) => {
 
+
     const User = require('../../db/user')(db);
 
     // POST /users/create
